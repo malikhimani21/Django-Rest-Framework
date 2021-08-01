@@ -32,4 +32,16 @@ pip install djangorestframework
 pip install markdown       # Markdown support for the browsable API.
 pip install django-filter  # Filtering support
 
+
+Bug Solved for mysqlclient
+
+install pymysql ( command - pip install pymsql )
+
+Add this to root level .init file
+
+import pymysql
+pymysql.install_as_MySQLdb()
+
+
+
 Special thanks to ### Feel Free To Code

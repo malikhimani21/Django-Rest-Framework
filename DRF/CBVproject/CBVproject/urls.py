@@ -1,4 +1,4 @@
-"""FBVproject URL Configuration
+"""CBVproject URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -15,8 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from CBVapp.views import CourseListView, CourseDetailView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('fbvapp.urls'))
+    path('api/', include('CBVapp.urls'))
+    
 ]
+
+# path('api/courses', CourseListView.as_view()),
+#     path('api/courses/<int:pk>', CourseDetailView.as_view()),

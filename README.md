@@ -1,8 +1,5 @@
 # Django-Rest-Framework
 
-![1](https://user-images.githubusercontent.com/55083861/139196967-a5378da0-a75f-4832-af8c-b93cd1c71cd8.PNG)
-
-
 Django REST framework is a powerful and flexible toolkit for building Web APIs.
 
 Some reasons you might want to use REST framework:
